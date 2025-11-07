@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Latex in HTML -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: {
+        fontCache: 'global'
+      },
+      options: {
+        ignoreHtmlClass: "tex2jax_ignore"
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  <title>Cours Latex</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/icons/logo.svg" alt="Logo" />
+      <h4>Code Latex Simple</h4>
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#introduction">Accueil</a></li>
+      <li><a href="#installation">Cours</a></li>
+      <li><a href="#premiers-pas">À propos</a></li>
+      <li><a href="#structure-document">Contact</a></li>
+    </ul>
+  </header>
+  <!-- Sidebar & Main -->
+  <div class="container">
+    <div class="msg-copied">
+      <p class="msg-copied-text">Le code </p>
+    </div>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul class="sidebar-links">
+        <li>
+          <a href="#Symboles">Les Symboles 
+          </a>
+          <ul class="sidebar-sous-links">
+            <li><a href="#math-base">🧮 Symboles mathématiques de base</a></li>
+            <li><a href="#ensembles">📐 Symboles géométriques et vecteurs</a></li>
+            <li><a href="#ensembles">🔢 Ensembles et appartenance</a></li>
+            <li><a href="#logiques">🧠 Logique et relations</a></li>
+          </ul>
+        </li>
+        <li><a href="#accolades"> Les Accolades $\left\{  \right\}$</a></li>
+        
+        <li><a href="#premiers-pas">Formule Mathématiques</a></li>
+        <li><a href="#structure-document">Tableau et figures</a></li>
+      </ul>
+    </aside>
+    <!-- Main -->
+    <main class="main-content">
+        <!----------------------------------Les Symboles en LaTeX---------------------------------->
+        <!----------------------------------------------------------------------------------------->
+        <h3 id="Symboles">Les Symboles en LaTeX</h3>
+        <h5 id="math-base">Symboles mathématiques de base </h5>
+        <div class="codes-ltx-imgs">
+          <!-- 1 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\times$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\times$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\div$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\div$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\neq$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\neq$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\leq$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\leq$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\geq$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\geq$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\approx$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\approx$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+        </div>
+        <h5 id="math-base">Symboles géométriques et vecteurs </h5>
+        <div class="codes-ltx-imgs">
+          <!-- 1 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\widehat{ABC}$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\widehat{ABC}$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\angle ABC$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\angle ABC$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\triangle ABC$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\triangle ABC$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\parallel$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\parallel$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\perp$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\perp$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\vec{u}$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\vec{u}$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\overrightarrow{AB}$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\overrightarrow{AB}$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+        
+        </div>
+        <h5 id="ensembles">Ensembles et appartenance </h5>
+        <div class="codes-ltx-imgs">
+          <!-- 1 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\in$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\in$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\notin$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\notin$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\subset$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\subset$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\subseteq$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\subseteq$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\supset$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\supset$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\cup$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\cup$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\cap$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\cap$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\emptyset$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\emptyset$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\mathbb{N}$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\mathbb{N}$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+        </div>
+        <h5 id="logiques">Logique et relations </h5>
+        <div class="codes-ltx-imgs">
+          <!-- 1 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\Rightarrow$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\Rightarrow$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\Leftarrow$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\Leftarrow$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\Leftrightarrow$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\Leftrightarrow$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\neg$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\neg$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\wedge$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\wedge$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\vee$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\vee$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\forall$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\forall$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\exists$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\exists$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="code-ltx-img">
+            <p class="ltx-img codeLtx">$\nexists$</p>
+            <div class="code-ltx">
+              <pre class="tex2jax_ignore">$\nexists$</pre>
+              <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+            </div>
+          </div>
+        </div>
+        <!----------------------------------Les Accolades en LaTeX---------------------------------->
+        <!----------------------------------------------------------------------------------------->
+      <h3 id="accolades">Les Accolades en LaTeX</h3>
+      <div class="codes-ltx-imgs">
+        <div class="code-ltx-img">
+          <p class="ltx-img codeLtx">$\left\{ \cdots \right\}$</p>
+          <div class="code-ltx">
+            <pre class="tex2jax_ignore">$\left\{ x + y + z \right\}$</pre>
+            <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+          </div>
+        </div>
+        <div class="code-ltx-img">
+          <p class="ltx-img codeLtx" title="Copier le code latex">$\big\{ \cdots \big\}$</p>
+          <div class="code-ltx">
+            <pre class="tex2jax_ignore">$\big\{ A \cup B \big\}$</pre>
+            <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+          </div>
+        </div>
+        <div class="code-ltx-img">
+          <p class="ltx-img codeLtx">$\Bigg\{ \cdots \Bigg\}$</p>
+          <div class="code-ltx">
+            <pre class="tex2jax_ignore">$\Bigg\{
+                    \frac{1}{2} \Bigg\}$</pre>
+            <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+          </div>
+        </div>
+        <!-- 4 -->
+            <div class="code-ltx-img">
+              <p class="ltx-img codeLtx" title="Copier le code latex">
+                $f(x) = \begin{cases}
+                ax + b & \text{si } x \geq 0 \\
+                cx + d & \text{si } x < 0 \\ \end{cases}$ </p>
+                  <div class="code-ltx">
+                    <pre class="tex2jax_ignore">
+                  $f(x) = \begin{cases}
+                  ax + b & \text{si } x \geq 0 \\
+                  cx + d & \text{si } x < 0 \\ 
+                  \end{cases}$
+                            </pre>
+                    <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+                  </div>
+            </div>
+            <!-- 6 -->
+            <div class="code-ltx-img">
+            
+              <p class="ltx-img codeLtx" title="Copier le code latex">
+                $\begin{cases}
+                ax + by = c \\
+                dx + ey = f \\
+                gx + hy = i \\
+                \end{cases}$
+              </p>
+            
+              <div class="code-ltx">
+                <pre class="tex2jax_ignore">
+                  $\begin{cases}
+                    ax + by = c \\
+                    dx + ey = f \\
+                    gx + hy = i \\
+                  \end{cases}$
+                            </pre>
+                <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+              </div>
+            </div>
+          
+      </div>
+   
+            
+    </main>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <div class="code-ltx-img">
+  <div class="ltx-img">
+    <p class="codeLtx" title="Copier le code latex">
+    </p>
+  </div>
+  <div class="code-ltx">
+    <pre class="tex2jax_ignore">
+    </pre>
+    <img class="copy" src="images/icons/copy.svg" alt="copy" title="copier le code">
+  </div>
+</div> -->

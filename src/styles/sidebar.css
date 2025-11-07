@@ -1,0 +1,35 @@
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  padding: 2rem;
+  height: 100%;
+  border: 1px solid var(--color-light);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.sidebar .sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  margin-top: 2rem;
+}
+.sidebar .sidebar-links li {
+  padding: 0.8rem 1.1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar .sidebar-links a {
+    color: var(--color-dark);
+  transition: all 0.3s ease;
+  font-size: var(--fontSize-base);
+}
+.sidebar .sidebar-links a:hover {
+color: var(--color-gray);
+}
+.sidebar .sidebar-sous-links li{
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+.sidebar .sidebar-sous-links li a{
+  font-size: var(--fontSize-xs);
+}
