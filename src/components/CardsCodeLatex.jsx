@@ -20,6 +20,11 @@ export default function CardsCodeLatex({ id }) {
           <CardCodeLatex codeLtx={index.codeLtx} formulaMath={index.formulaMath} key={index.id} />
         ))
       }
+      {
+        id === "22" && codsLtx.slice(22, 36).map((index) => (
+          <CardCodeLatex codeLtx={index.codeLtx} formulaMath={index.formulaMath} key={index.id} />
+        ))
+      }
     </div>
   )
 }

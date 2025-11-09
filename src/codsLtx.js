@@ -21,5 +21,22 @@ const codsLtx = [
      { id: 19, codeLtx: '\\cap', formulaMath: '\\cap' },
      { id: 20, codeLtx: '\\emptyset', formulaMath: '\\emptyset' },
      { id: 21, codeLtx: '\\mathbb{N}', formulaMath: '\\mathbb{N}' },
+     // Logique
+     { id: 22, codeLtx: '\\neg p', formulaMath: '\\neg p' },
+     { id: 23, codeLtx: 'p \\wedge q', formulaMath: 'p \\wedge q' },
+     { id: 24, codeLtx: 'p \\vee q', formulaMath: 'p \\vee q' },
+     { id: 25, codeLtx: 'p \\Rightarrow q', formulaMath: 'p \\Rightarrow q' },
+     { id: 26, codeLtx: '\\implies', formulaMath: '\\implies' },
+    
+     { id: 27, codeLtx: '\\Longrightarrow', formulaMath: '\\Longrightarrow' },
+     { id: 28, codeLtx: '\\impliedby', formulaMath: '\\impliedby' },
+     { id: 29, codeLtx: '\\Longleftrightarrow', formulaMath: '\\Longleftrightarrow' },
+     { id: 30, codeLtx: 'p \\Leftrightarrow q', formulaMath: 'p \\Leftrightarrow q' },
+     { id: 31, codeLtx: '\\iff', formulaMath: '\\iff' },
+     
+     { id: 32, codeLtx: '\\forall', formulaMath: '\\forall' },
+     { id: 33, codeLtx: '\\exists', formulaMath: '\\exists' },
+     { id: 34, codeLtx: '\\nexists', formulaMath: '\\nexists' },
+     { id: 35, codeLtx: '\\exists!', formulaMath: '\\exists!' },
 ];
 export default codsLtx;
