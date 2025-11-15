@@ -20,7 +20,7 @@ export default function CardCodeLatex({ codeLtx, formulaMath }) {
           <p className='symbole-latex' onClick={handleCopy} >
             <InlineMath math={formulaMath} />
           </p>
-          <p>{codeLtx}</p>
+          <pre>{codeLtx}</pre>
           </div>
       </div>
     </>

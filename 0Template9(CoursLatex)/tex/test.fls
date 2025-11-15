@@ -1,6 +1,6 @@
-PWD /Users/macbookair/Desktop/Programmation/Css/Template9(CoursLatex)/tex
+PWD /Users/macbookair/Desktop/Programmation/MyWebs/CoursLatex/0Template9(CoursLatex)/tex
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/macbookair/Desktop/Programmation/Css/Template9(CoursLatex)/tex/test.tex
+INPUT /Users/macbookair/Desktop/Programmation/MyWebs/CoursLatex/0Template9(CoursLatex)/tex/test.tex
 OUTPUT test.log
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -162,14 +162,15 @@ INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/la
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titlesec.sty
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titletoc.sty
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/titlesec/titletoc.sty
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/framed/framed.sty
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/framed/framed.sty
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./test.aux
+INPUT ./test.aux
+INPUT test.aux
 OUTPUT test.aux
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -179,29 +180,24 @@ INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/la
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-OUTPUT test.pdf
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr8.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr6.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omllmm.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omllmm.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omllmm.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi8.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi6.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omslmsy.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omslmsy.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omslmsy.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy7.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy8.tfm
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy6.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omxlmex.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omxlmex.fd
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/omxlmex.fd
@@ -218,47 +214,16 @@ INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/tex/la
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmbx12.tfm
-OUTPUT test.toc
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr8.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr6.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi12.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi8.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmmi6.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy8.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/lmsy6.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr8.tfm
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ec-lmr6.tfm
+OUTPUT test.pdf
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT test.aux
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmex10.pfb
+INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmex10.pfb
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi12.pfb
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi12.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmmi8.pfb
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb
 INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr6.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr8.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy8.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy8.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-INPUT /Users/macbookair/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb

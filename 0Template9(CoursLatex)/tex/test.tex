@@ -15,223 +15,26 @@
 \usepackage{titletoc}
 \geometry{margin=2.2cm}
 
-% ============================
-% COULEURS DOUCES (pastel)
-% ============================
-\definecolor{myblue}{RGB}{63,120,192}
-\definecolor{mypurple}{RGB}{139,108,174}
-\definecolor{mygreen}{RGB}{111,174,120}
-\definecolor{myorange}{RGB}{231,157,73}
-\definecolor{mycyan}{RGB}{96,179,196}
-\definecolor{myyellow}{RGB}{242,214,90}
+
 
 % ============================
-% STYLE DES TITRES
-% ============================
-\titleformat{\section}
-  {\Large\bfseries\color{myblue}}
-  {\thesection.}{0.5em}{}
 
-\titleformat{\subsection}
-  {\large\bfseries\color{mycyan}}
-  {\thesubsection.}{0.5em}{}
 
-% ============================
-% TABLE DES MATIÈRES DESIGN
-% ============================
-\usepackage{framed}
-\definecolor{tocbg}{RGB}{240,247,255}
-\definecolor{tocborder}{RGB}{180,210,255}
 
-\newenvironment{fancytoc}{
-  \def\FrameCommand{{\color{tocborder}\vrule width 2pt}\colorbox{tocbg}}
-  \MakeFramed{\advance\hsize-\width \FrameRestore}
-}{\endMakeFramed}
-
-\titlecontents{section}
-  [0em]{\vspace{1mm}\bfseries\color{myblue}}{}
-  {\thecontentslabel\quad}{}
-  {\hfill\contentspage}
-
-\titlecontents{subsection}
-  [1.5em]{\color{mycyan}}{}
-  {\thecontentslabel\quad}{}
-  {\hfill\contentspage}
-
-% ============================
-% DÉFINITION / THÉORÈME / PROPRIÉTÉ
-% ============================
-\tcbset{
-  defstyle/.style={colback=myblue!5!white,colframe=myblue!40!white,fonttitle=\bfseries,title=Définition},
-  propstyle/.style={colback=mygreen!5!white,colframe=mygreen!40!white,fonttitle=\bfseries,title=Propriété},
-  theoStyle/.style={colback=myorange!5!white,colframe=myorange!40!white,fonttitle=\bfseries,title=Théorème},
-}
-
-\newcounter{defi}[section]
-\renewcommand{\thedefi}{\thesection.\arabic{defi}}
-\newenvironment{definition}[1][]{
-  \refstepcounter{defi}
-  \begin{tcolorbox}[defstyle,title={Définition~\thedefi~#1}]
-}{
-  \end{tcolorbox}
-}
-
-\newcounter{theo}[section]
-\renewcommand{\thetheo}{\thesection.\arabic{theo}}
-\newenvironment{theoreme}[1][]{
-  \refstepcounter{theo}
-  \begin{tcolorbox}[theoStyle,title={Théorème~\thetheo~#1}]
-}{
-  \end{tcolorbox}
-}
-
-\newcounter{prop}[section]
-\renewcommand{\theprop}{\thesection.\arabic{prop}}
-\newenvironment{propriete}[1][]{
-  \refstepcounter{prop}
-  \begin{tcolorbox}[propstyle,title={Propriété~\theprop~#1}]
-}{
-  \end{tcolorbox}
-}
-
-% ============================
-% REMARQUE / EXEMPLE / APPLICATION (trait vertical pastel)
-% ============================
-\newenvironment{remarque}{
-  \par\noindent
-  \begin{tcolorbox}[
-    enhanced,
-    sharp corners,
-    colback=white,
-    colframe=myyellow!50,
-    left=6mm,
-    borderline west={3pt}{0pt}{myyellow!80!black},
-    boxrule=0pt,
-    before skip=5pt, after skip=7pt,
-  ]
-  \textbf{Remarque :}
-}{
-  \end{tcolorbox}
-}
-
-\newcounter{ex}[section]
-\renewcommand{\theex}{\thesection.\arabic{ex}}
-\newenvironment{exemple}[1][]{
-  \refstepcounter{ex}
-  \par\noindent
-  \begin{tcolorbox}[
-    enhanced,
-    sharp corners,
-    colback=white,
-    colframe=mycyan!50,
-    left=6mm,
-    borderline west={3pt}{0pt}{mycyan!80!black},
-    boxrule=0pt,
-    before skip=5pt, after skip=7pt,
-  ]
-  \textbf{Exemple \theex #1 :}
-}{
-  \end{tcolorbox}
-}
-
-\newcounter{app}[section]
-\renewcommand{\theapp}{\thesection.\arabic{app}}
-\newenvironment{application}[1][]{
-  \refstepcounter{app}
-  \par\noindent
-  \begin{tcolorbox}[
-    enhanced,
-    sharp corners,
-    colback=white,
-    colframe=mypurple!50,
-    left=6mm,
-    borderline west={3pt}{0pt}{mypurple!80!black},
-    boxrule=0pt,
-    before skip=5pt, after skip=7pt,
-  ]
-  \textbf{Application \theapp #1 :}
-}{
-  \end{tcolorbox}
-}
 
 % ============================
 % TITRE DU COURS
 % ============================
-\title{\textbf{Chapitre : Continuité}}
-\author{}
-\date{}
+
 
 % ============================
 % DÉBUT DU DOCUMENT
 % ============================
 \begin{document}
-
-\maketitle
-
-\begin{fancytoc}
-  \tableofcontents
-\end{fancytoc}
-
-\bigskip
-
-% ============================
-\section{Continuité en un point}
-
-\begin{definition}
-La fonction $f$ est continue en un point $a$ si 
-\[
-\lim_{x \to a} f(x) = f(a).
-\]
-\end{definition}
-
-\begin{remarque}
-La continuité en un point implique l’existence de la limite en ce point.
-\end{remarque}
-
-\begin{exemple}
-La fonction $f(x) = x^2$ est continue en tout point $a \in \mathbb{R}$.
-\end{exemple}
-
-\begin{application}
-Vérifier la continuité de $f(x) = \sqrt{x}$ sur $[0,\infty)$.
-\end{application}
-
-% ============================
-\section{Continuité sur un intervalle}
-
-\begin{definition}
-$f$ est continue sur un intervalle $I$ si elle est continue en tout point de $I$.
-\end{definition}
-
-\begin{theoreme}[Valeur intermédiaire]
-Si $f$ est continue sur $[a,b]$, alors pour tout $y$ compris entre $f(a)$ et $f(b)$, il existe $c \in [a,b]$ tel que $f(c) = y$.
-\end{theoreme}
-
-\begin{exemple}
-$f(x) = x^3$ vérifie le théorème des valeurs intermédiaires sur tout intervalle de $\mathbb{R}$.
-\end{exemple}
-
-\begin{application}
-Montrer que $f(x) = \frac{1}{x}$ n’est pas continue en $0$.
-\end{application}
-
-% ============================
-\section{Opérations sur les fonctions continues}
-
-\begin{propriete}
-Si $f$ et $g$ sont continues en $a$, alors :
-\[
-f+g, \quad f-g, \quad f \times g, \quad \text{et } \frac{f}{g} \text{ (si } g(a) \neq 0)
-\]
-sont continues en $a$.
-\end{propriete}
-
-\begin{exemple}
-$f(x) = x^2$ et $g(x) = \sin x$ sont continues en tout $x \in \mathbb{R}$. Ainsi $f+g$ et $f \times g$ sont continues en tout $x$.
-\end{exemple}
-
-\begin{application}
-Vérifier la continuité de $f(x) = \frac{x^2+1}{x-1}$ sur son domaine.
-\end{application}
-
+$\big\{  ...  \big\}$
+$\begin{cases}
+ax + by = c \\
+dx + ey = f \\
+gx + hy = i \\
+\end{cases}$
 \end{document}

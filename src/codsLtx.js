@@ -38,5 +38,28 @@ const codsLtx = [
      { id: 33, codeLtx: '\\exists', formulaMath: '\\exists' },
      { id: 34, codeLtx: '\\nexists', formulaMath: '\\nexists' },
      { id: 35, codeLtx: '\\exists!', formulaMath: '\\exists!' },
+     // accolades
+     { id: 36, codeLtx: '\\left\\{ ... \\right\\}', formulaMath: '\\left\\{  ...  \\right\\}' },
+     { id: 37, codeLtx: '\\big\\{  ...  \\big\\}', formulaMath: '\\big\\{  ...  \\big\\}' },
+     {
+          id: 38, codeLtx: `\\Bigg\\{...\\Bigg\\}`, formulaMath: `\\Bigg\\{ ... \\Bigg\\}` },
+     {
+          id: 39, codeLtx: `\\begin{cases}
+ax + by = c \\\\
+dx + ey = f \\\\
+gx + hy = i \\\\
+\\end{cases}`, formulaMath: `\\begin{cases}
+                    ax + by = c \\\\
+                    dx + ey = f \\\\
+                    gx + hy = i \\\\
+                  \\end{cases}` },
+     {
+          id: 40, codeLtx: `f(x) = \\begin{cases}
+ax + b & \\text{si } x \\geq 0 \\\\
+cx + d & \\text{si } x < 0 \\\\ 
+\\end{cases}`, formulaMath: `f(x) = \\begin{cases}
+ax + b & \\text{si } x \\geq 0 \\\\
+cx + d & \\text{si } x < 0 \\\\ 
+\\end{cases}` },
 ];
 export default codsLtx;

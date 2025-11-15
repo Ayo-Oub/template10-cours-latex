@@ -14,7 +14,9 @@ export default function Main() {
                     <h5 id="ensembles">Ensembles et appartenance</h5>
                     <CardsCodeLatex id='13' />
                     <h5 id="logique">Logique et relations</h5>
-                    <CardsCodeLatex id='22'/>
+                    <CardsCodeLatex id='22' />
+                    <h5 id="accolades">Accolades</h5>
+                    <CardsCodeLatex id='36' />
                </main>
           </>
      );
